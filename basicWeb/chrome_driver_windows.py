@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as Service
 from basicWeb import chrome_driver_home, chrome_driver_work # variables with chrome driver path
 
-
 class runChromeTests():
 
     def demo_test(self):

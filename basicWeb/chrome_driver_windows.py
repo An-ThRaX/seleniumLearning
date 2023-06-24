@@ -1,3 +1,5 @@
+# a demo on how to open a web page
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from basicWeb import chrome_driver_home, chrome_driver_work  # variables with chrome driver path

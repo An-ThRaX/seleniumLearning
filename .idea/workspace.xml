@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f11576-82bb-4a2e-9f62-7f21235e7704" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/seleniumLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basicWeb/findByIdName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basicWeb/findByLinkText.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basicWeb/findByXPathCSS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="f7f11576-82bb-4a2e-9f62-7f21235e7704" name="Changes" comment="some exercises">
+      <change afterPath="$PROJECT_DIR$/workingWithElements/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingWithElements/browser_interactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingWithElements/click_and_send_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingWithElements/element_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingWithElements/radio_checkbox_buttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingWithElements/working_with_elemets_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicWeb/chrome_driver_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicWeb/chrome_driver_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicWeb/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicWeb/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/cipri/PycharmProjects/seleniumLearning/basicWeb",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cipri/PycharmProjects/seleniumLearning/basicWeb&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cipri\PycharmProjects\seleniumLearning\basicWeb" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.findByLinkText">
-    <configuration name="chrome_driver_windows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.working_with_elemets_list">
+    <configuration name="element_state" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basicWeb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/chrome_driver_windows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/element_state.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findByIdName" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="findByClassTag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/findByIdName.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/findByClassTag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findByLinkText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="listOfElements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/findByLinkText.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/listOfElements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findByXPathCSS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="radio_checkbox_buttons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basicWeb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/findByXPathCSS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/radio_checkbox_buttons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="working_with_elemets_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="seleniumLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/working_with_elemets_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.findByLinkText" />
-        <item itemvalue="Python.findByXPathCSS" />
-        <item itemvalue="Python.chrome_driver_windows" />
-        <item itemvalue="Python.findByIdName" />
+        <item itemvalue="Python.working_with_elemets_list" />
+        <item itemvalue="Python.listOfElements" />
+        <item itemvalue="Python.radio_checkbox_buttons" />
+        <item itemvalue="Python.element_state" />
+        <item itemvalue="Python.findByClassTag" />
       </list>
     </recent_temporary>
   </component>

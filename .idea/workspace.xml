@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f11576-82bb-4a2e-9f62-7f21235e7704" name="Changes" comment="some exercises">
+      <change afterPath="$PROJECT_DIR$/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/dynamic_xpath_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/element_present_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/get_attribute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/get_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/handy_wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/using_wrappers_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/seleniumLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seleniumLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingWithElements/hidden_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/workingWithElements/hidden_elements.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cipri/PycharmProjects/seleniumLearning/basicWeb&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/cipri/PycharmProjects/seleniumLearning/utilities",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cipri\PycharmProjects\seleniumLearning\utilities" />
       <recent name="C:\Users\cipri\PycharmProjects\seleniumLearning\basicWeb" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hidden_elements">
-    <configuration name="element_state" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dynamic_xpath_format">
+    <configuration name="dynamic_xpath_format" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/element_state.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/dynamic_xpath_format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hidden_elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="element_present_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/hidden_elements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/element_present_check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listOfElements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_attribute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basicWeb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicWeb/listOfElements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/get_attribute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="radio_checkbox_buttons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handy_wrappers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/radio_checkbox_buttons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/handy_wrappers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="working_with_elemets_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="using_wrappers_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="seleniumLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workingWithElements" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workingWithElements/working_with_elemets_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/using_wrappers_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hidden_elements" />
-        <item itemvalue="Python.working_with_elemets_list" />
-        <item itemvalue="Python.listOfElements" />
-        <item itemvalue="Python.radio_checkbox_buttons" />
-        <item itemvalue="Python.element_state" />
+        <item itemvalue="Python.dynamic_xpath_format" />
+        <item itemvalue="Python.element_present_check" />
+        <item itemvalue="Python.handy_wrappers" />
+        <item itemvalue="Python.using_wrappers_demo" />
+        <item itemvalue="Python.get_attribute" />
       </list>
     </recent_temporary>
   </component>

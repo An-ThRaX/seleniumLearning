@@ -33,6 +33,9 @@ class HiddenElements():
         print("Text is visible? " + str(text_box_state))
         time.sleep(2)
 
+
+
+    # a BS of website, good for nothing - loads different pages
     def test_expedia(self):
         base_url = "https://www.expedia.com/"
         driver = webdriver.Chrome()
@@ -40,15 +43,23 @@ class HiddenElements():
         driver.get(base_url)
         driver.implicitly_wait(3)
 
-        select_flights = driver.find_element(By.XPATH, '//*[@aria-controls="wizard-flight-pwa"]/span')
-        select_flights.click()
+        click_flights = driver.find_element(By.XPATH, '//*[@class="uitk-tabs-container"]//span[contains(text(),"Flights")]')
+        click_flights.click()
+        time.sleep(2)
+
+        click_1_traveler = driver.find_element(By.XPATH, '//*[@data-testid="travelers-field"]')
+        click_1_traveler.click()
+        time.sleep(2)
 
         select_child = driver.find_element(By.XPATH, "//*[@aria-label='Increase children']")
         select_child.click()
+        time.sleep(2)
 
         drop_down_element = driver.find_element(By.ID, "child-age-input-0-0")
         print("Element visible? " + str(drop_down_element.is_displayed()))
-        time.sleep(100)
+
 
 ff = HiddenElements()
-ff.test_expedia()
+for i in range(5):
+    ff.test_expedia()
+
